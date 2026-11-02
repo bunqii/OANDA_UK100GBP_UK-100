@@ -1,0 +1,65 @@
+{
+  "pod_version": "4.0",
+  "instrument": "UK100_GBP",
+  "granularity": "M1",
+  "chunk_start": "2026-11-01",
+  "chunk_end": "2026-11-30",
+  "parquet_file": "OANDA_UK100GBP_UK-100_1_2026-11-01_to_2026-11-30.parquet",
+  "data_file": "OANDA_UK100GBP_UK-100_1_2026-11-01_to_2026-11-30.parquet",
+  "row_count": 282,
+  "first_candle": {
+    "time": 1793581200,
+    "Time": "2026-11-02T01:00:00.000000000Z",
+    "open": 10731.2,
+    "high": 10731.2,
+    "low": 10728.2,
+    "close": 10728.2,
+    "volume": 9
+  },
+  "last_candle": {
+    "time": 1793598060,
+    "Time": "2026-11-02T05:41:00.000000000Z",
+    "open": 10731.4,
+    "high": 10732.2,
+    "low": 10731.2,
+    "close": 10732.2,
+    "volume": 19
+  },
+  "csv_file": "OANDA_UK100GBP_UK-100_1_2026-11-01_to_2026-11-30.parquet",
+  "csv_row_count": 282,
+  "csv_first_candle": {
+    "time": 1793581200,
+    "Time": "2026-11-02T01:00:00.000000000Z",
+    "open": 10731.2,
+    "high": 10731.2,
+    "low": 10728.2,
+    "close": 10728.2,
+    "volume": 9
+  },
+  "csv_last_candle": {
+    "time": 1793598060,
+    "Time": "2026-11-02T05:41:00.000000000Z",
+    "open": 10731.4,
+    "high": 10732.2,
+    "low": 10731.2,
+    "close": 10732.2,
+    "volume": 19
+  },
+  "status": "VERIFIED_PARTIAL",
+  "verified_at": "2026-11-02T05:42:56.000000000Z",
+  "generated_at": "2026-11-02T05:42:56.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 1,
+    "chunk_api_blocks": 1,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2026-11-01T00:00:00Z",
+        "to": "2026-11-02T05:42:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
